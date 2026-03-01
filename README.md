@@ -169,12 +169,12 @@ CSS mengatur ukuran dan warna font, menambah garis tipis diatas footer untuk mem
 
 ---
 
-## Teknologi yang Digunakan
+## 🔍 Teknologi yang Digunakan
 
 | Teknologi | Kegunaan |
 |---|---|
 | **HTML** | Digunakan untuk membangun struktur utama website seperti navbar, hero section, about, certificates, contact, dan footer. |
-| **CSS** | Digunakan untuk mengatur tampilan visual website seperti warna, layout tambahan, animasi hover, dan efek transisi |
+| **CSS** | Digunakan untuk mengatur tampilan visual website seperti warna, layout tambahan, animasi hover, dan efek transisi. |
 | **Bootstrap 5** | Membantu dalam pembuatan layout responsif menggunakan grid system, serta menyediakan komponen siap pakai seperti navbar, card, progress bar, dan utility class untuk spacing dan alignment. |
 | **Bootstrap Icons** | Digunakan untuk menampilkan ikon pada bagian navbar, tools, social media, status pada badge profil yang membuat tampilan lebih menarik. |
 | **Vue JS** | Digunakan untuk menampilkan data secara dinamis seperti nama, deskripsi, daftar skill, sertifikat, dan social media tanpa menulis ulang elemen HTML secara manual. |
