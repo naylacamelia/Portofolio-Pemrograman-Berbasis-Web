@@ -29,12 +29,17 @@ Navbar terdiri dari tiga button yang terhubung dengan setiap section pada websit
 
 ### HTML
 
+<img width="904" height="328" alt="image" src="https://github.com/user-attachments/assets/be13c1f9-cad2-4f68-a125-ea0bdf3a26d8" />
+
 Section ini menerapkan komponen Navbar Bootstrap yang dilengkapi dengan:
-1. Utility spacing (`ms-auto`) untuk mengatur posisi dan jarak antar elemen agar lebih rapi.
-2. Collapse system (`navbar-toggler`, `collapse`, `data-bs-toggle`) untuk menyembunyikan menu dalam bentuk hamburger saat layar berukuran kecil.
-3. Breakpoint `navbar-expand-lg` untuk memastikan navbar berubah secara otomatis berdasarkan ukuran layar, sehingga tetap responsif di berbagai device.`
+1. **Utility spacing** (`ms-auto`) untuk mengatur posisi dan jarak antar elemen agar lebih rapi.
+2. **Collapse system** (`navbar-toggler`, `collapse`, `data-bs-toggle`) untuk menyembunyikan menu dalam bentuk hamburger saat layar berukuran kecil.
+3. **Breakpoint** `navbar-expand-lg` untuk memastikan navbar berubah secara otomatis berdasarkan ukuran layar, sehingga tetap responsif di berbagai device.`
 
 ### CSS
+
+<img width="496" height="368" alt="image" src="https://github.com/user-attachments/assets/abdb0f4f-16eb-4952-93b7-6974ea8358cc" />
+
 CSS mengatur warna, ukuran font, padding, efek blur, serta efek hover pada button.
 
 </details>
@@ -51,11 +56,11 @@ Hero Section terdiri dari deskripsi singkat diri, greetings, foto porfil dan but
 <img src="https://github.com/user-attachments/assets/8b40abaf-4d2f-44fc-8e35-c65b7a962fa7" width="600" alt="Tampilan Desktop">
 
 Section ini menerapkan komponen Bootstrap dan Interpolasi Vue Js sebagai berikut:
-1. Grid system & breakpoint `col-12 col-lg-7` untuk membagi layout menjadi beberapa kolom dengan sistem 12 grid dan memastikan agar tampilan website tetap responsive di berbagai layar.
-2. Spacing utilities `mt-4` untuk memberi spacing margin top.
-3. Flex utilities`d-flex` untuk mengaktifkan display flexbox pada button sehingga dapat disusun secara horizontal.
-4. Interpolasi Vue Js, `{{ tagline }}`, `{{ description }}`, untuk menampilkan data yang  disimpan pada vue.
-5. Text alignment `text-center text-lg-end` untuk mengatur tata letak teks secara responsif.
+1. **Grid system & breakpoint** `col-12 col-lg-7` untuk membagi layout menjadi beberapa kolom dengan sistem 12 grid dan memastikan agar tampilan website tetap responsive di berbagai layar.
+2. **Spacing utilities** `mt-4` untuk memberi spacing margin top.
+3. **Flex utilities**`d-flex` untuk mengaktifkan display flexbox pada button sehingga dapat disusun secara horizontal.
+4. **Interpolasi Vue Js**, `{{ tagline }}`, `{{ description }}`, untuk menampilkan data yang  disimpan pada vue.
+5. **Text alignment** `text-center text-lg-end` untuk mengatur tata letak teks secara responsif.
 
 ### CSS
 
@@ -64,7 +69,9 @@ Section ini menerapkan komponen Bootstrap dan Interpolasi Vue Js sebagai berikut
 CSS mengatur warna, ukuran font, padding, efek blur, serta efek hover pada button.
 
 </details>
+
 ---
+
 <details>
 <summary>About Me Section</summary>
 
@@ -121,17 +128,19 @@ Section Contact terbagi menjadi dua kolom utama, section kiri berisi informasi s
 
 ### HTML
 
+<img width="912" height="313" alt="image" src="https://github.com/user-attachments/assets/15ecd969-142b-46aa-91eb-c277966511fb" />
+
 Section ini menerapkan komponen Bootstrap dan Vue JS sebagai berikut:
-1. **Grid system** — `col-12 col-lg-6` untuk membagi dua kolom 50:50 di desktop dan satu kolom penuh di mobile.
-2. **Flex utility** — `d-flex flex-wrap gap-3` untuk menyusun tombol sosial media secara horizontal dan otomatis wrap ke baris baru jika tidak muat.
-3. **Spacing utility** — `mt-4` untuk memberi jarak antara deskripsi dan deretan tombol sosial media tanpa menambah CSS manual.
-4. **Vue JS `:class` binding** — `:class="soc.icon"` dan `:class="info.icon"` untuk mengikat class ikon Bootstrap Icons secara dinamis dari data, sehingga ikon berbeda dapat dirender dari satu template yang sama.
+1. **Grid system** — `col-12 col-lg-6` untuk membagi tampilan menjadi dua kolom dengan ukuran yang sama.
+2. **Flex utility** — `d-flex flex-wrap gap-3` untuk menyusun tombol sosial media secara horizontal dan otomatis ke baris baru jika tidak muat.
+3. **Spacing utility** — `mt-4` untuk memberi jarak antara elemen sehingga tidak perlu menambah CSS manual.
+4. **Vue JS `:class` binding** — `:class="soc.icon"` dan `:class="info.icon"` untuk menampilkan daftar social media, link, serta bootstrap icon yang sudah tersimpan di vue.
 
 ### CSS
 
-CSS mengatur visual badge ketersediaan dan efek animasi:
-- **`@keyframes kedip`** mendefinisikan animasi opacity dari `1 → 0.3 → 1` yang diterapkan pada `.avail-dot` dengan `animation: kedip 2s infinite`, menciptakan efek titik berkedip (*blinking dot*) yang menandakan status aktif secara visual.
-- **`border-radius: 50px`** pada `.social-btn` menciptakan bentuk *pill button* yang modern, dikombinasikan dengan `transition` multi-property untuk menganimasi perubahan warna, border, dan background sekaligus saat hover.
+<img width="534" height="532" alt="image" src="https://github.com/user-attachments/assets/fd755d97-b03d-4e00-9641-e35ac8797657" />
+
+CSS mengatur warna section, ukuran dan warna font, serta  menambahkan efek visual seperti animasi titik yang berkedip (pada availability) dan perubahan warna tombol saat dihover.
 
 </details>
 
@@ -140,20 +149,21 @@ CSS mengatur visual badge ketersediaan dan efek animasi:
 <details>
 <summary>Footer</summary>
 
-Footer menampilkan teks copyright di kiri dan tautan *Back to top* di kanan. Tampilannya minimal dan konsisten dengan gaya keseluruhan website.
+Footer menampilkan teks copyright di kiri dan tautan *Back to top* di kanan yang, ketika diklik, akan membawa pengguna ke halaman awal website.
 
 ### HTML
 
+<img width="739" height="187" alt="image" src="https://github.com/user-attachments/assets/0d47bfe7-144d-4165-adaf-b95e96248877" />
+
 Footer menggunakan Bootstrap utility classes sepenuhnya untuk layout:
 1. **Flex utility** — `d-flex justify-content-between` untuk menempatkan copyright di kiri dan link di kanan secara otomatis dalam satu baris.
-2. **Spacing utility** — `py-2` untuk padding vertikal tipis dan `mb-0` untuk menghilangkan margin bawah default elemen `<p>` agar tinggi footer tetap rapi.
-3. **Flex utility** — `flex-wrap gap-3` agar di layar sangat kecil kedua elemen dapat turun ke baris baru tanpa menyebabkan *overflow* horizontal.
+2. **Spacing utility** — `py-2` untuk padding vertikal tipis dan `mb-0` untuk menghilangkan margin bawah default
 
 ### CSS
 
-CSS mengatur tampilan visual footer secara minimal:
-- **`border-top: 1px solid #ece8e1`** memberikan garis pemisah tipis antara footer dan section di atasnya — teknik *hairline border* yang umum digunakan untuk transisi section yang bersih tanpa bayangan.
-- **`transition: color 0.25s ease`** + **`:hover { color: #e8718a }`** pada link *Back to top* menjaga konsistensi warna aksen merah muda yang digunakan di seluruh website sebagai identitas visual.
+<img width="447" height="241" alt="image" src="https://github.com/user-attachments/assets/328e1847-b2c9-40b6-9885-9c5d77be7511" />
+
+CSS mengatur ukuran dan warna font, menambah garis tipis diatas footer untuk memberikan batasan dengan section sebelumnya serta mengatur perubahan elemen ketika melakukan hover pada *Back to top*.
 
 </details>
 
