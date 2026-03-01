@@ -167,6 +167,7 @@ CSS mengatur ukuran dan warna font, menambah garis tipis diatas footer untuk mem
 
 </details>
 
+---
 
 ## Teknologi yang Digunakan
 
