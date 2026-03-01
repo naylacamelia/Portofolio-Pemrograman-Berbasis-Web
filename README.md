@@ -84,8 +84,8 @@ About Me terbagi menjadi dua bagian, section kiri berisi pengalaman, section kan
 Section ini menerapkan komponen Bootstrap dan Vue JS sebagai berikut:
 1. **Grid system** `col-12 col-lg-5`  dan `col-12 col-lg-7`  uigunakan untuk membagi tampilan menjadi dua bagian dan ketika di layar kecil otomatis menjadi satu kolom sehingga web bersifat responsift.
 2. **Progress bar** menggunakan `<div class="progress-bar">` untuk memanggil komponen progress bar bawaan Bootstrap.
-3. **Flex utility** — `d-flex flex-wrap gap-2` untuk menampilkan tools dalam satu baris dengan gap yang sama.
-4. **Interpolasi Vue JS `v-for`** — `v-for="skill in skills"` dan `:style="{ width: skill.level + '%' }"` untuk menampilkan daftar skill dari data yang sudah disimpan, jadi tidak perlu menulis satu per satu secara manual.
+3. **Flex utility** `d-flex flex-wrap gap-2` untuk menampilkan tools dalam satu baris dengan gap yang sama.
+4. **Interpolasi Vue JS `v-for`**  `v-for="skill in skills"` dan `:style="{ width: skill.level + '%' }"` untuk menampilkan daftar skill dari data yang sudah disimpan, jadi tidak perlu menulis satu per satu secara manual.
 
 ### CSS
 
@@ -107,8 +107,8 @@ Section Certificates menampilkan daftar sertifikat dalam layout grid kartu. Seti
 <img width="760" height="236" alt="image" src="https://github.com/user-attachments/assets/2513ec45-31b1-47fc-b5a3-4c86db7d71cc" />
 
 Section ini menerapkan komponen Bootstrap dan Vue JS sebagai berikut:
-1. **Grid system** — `col-12 col-md-6 col-lg-4` untuk menampilkan card yang secara otomatis menyesuaikan ukurannya dengan layar device.
-2. **Card component** — `card`, `card-img-top`, `card-body`, `card-title`, `card-text` merupakan komponen bootsrtrap yang akan mengisi tampilan sertifikat.
+1. **Grid system** `col-12 col-md-6 col-lg-4` untuk menampilkan card yang secara otomatis menyesuaikan ukurannya dengan layar device.
+2. **Card component** `card`, `card-img-top`, `card-body`, `card-title`, `card-text` merupakan komponen bootsrtrap yang akan mengisi tampilan sertifikat.
 3. **Interpolasi Vue JS `v-for` nested** — `v-for="cert in certificates"` untuk menampilkan sertifikat dari data yang telah tersimpan di vue.
 
 ### CSS
@@ -131,10 +131,10 @@ Section Contact terbagi menjadi dua kolom utama, section kiri berisi informasi s
 <img width="912" height="313" alt="image" src="https://github.com/user-attachments/assets/15ecd969-142b-46aa-91eb-c277966511fb" />
 
 Section ini menerapkan komponen Bootstrap dan Vue JS sebagai berikut:
-1. **Grid system** — `col-12 col-lg-6` untuk membagi tampilan menjadi dua kolom dengan ukuran yang sama.
-2. **Flex utility** — `d-flex flex-wrap gap-3` untuk menyusun tombol sosial media secara horizontal dan otomatis ke baris baru jika tidak muat.
-3. **Spacing utility** — `mt-4` untuk memberi jarak antara elemen sehingga tidak perlu menambah CSS manual.
-4. **Vue JS `:class` binding** — `:class="soc.icon"` dan `:class="info.icon"` untuk menampilkan daftar social media, link, serta bootstrap icon yang sudah tersimpan di vue.
+1. **Grid system** `col-12 col-lg-6` untuk membagi tampilan menjadi dua kolom dengan ukuran yang sama.
+2. **Flex utility** `d-flex flex-wrap gap-3` untuk menyusun tombol sosial media secara horizontal dan otomatis ke baris baru jika tidak muat.
+3. **Spacing utility** `mt-4` untuk memberi jarak antara elemen sehingga tidak perlu menambah CSS manual.
+4. **Vue JS `:class` binding** `:class="soc.icon"` dan `:class="info.icon"` untuk menampilkan daftar social media, link, serta bootstrap icon yang sudah tersimpan di vue.
 
 ### CSS
 
@@ -156,8 +156,8 @@ Footer menampilkan teks copyright di kiri dan tautan *Back to top* di kanan yang
 <img width="739" height="187" alt="image" src="https://github.com/user-attachments/assets/0d47bfe7-144d-4165-adaf-b95e96248877" />
 
 Footer menggunakan Bootstrap utility classes sepenuhnya untuk layout:
-1. **Flex utility** — `d-flex justify-content-between` untuk menempatkan copyright di kiri dan link di kanan secara otomatis dalam satu baris.
-2. **Spacing utility** — `py-2` untuk padding vertikal tipis dan `mb-0` untuk menghilangkan margin bawah default
+1. **Flex utility** `d-flex justify-content-between` untuk menempatkan copyright di kiri dan link di kanan secara otomatis dalam satu baris.
+2. **Spacing utility** `py-2` untuk padding vertikal tipis dan `mb-0` untuk menghilangkan margin bawah default
 
 ### CSS
 
