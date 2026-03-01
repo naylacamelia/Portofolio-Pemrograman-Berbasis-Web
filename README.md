@@ -6,7 +6,7 @@
 
 # Website Portofolio
 
-Project ini merupakan Website portofolio yang dibuat menggunakan HTML, CSS, Bootstrap 5, dan Vue JS. Website ini menampilkan informasi pribadi, pengalaman, skill, sertifikat dan media sosial yang ditampilkan secara interaktif dan responsif.
+Project ini merupakan website portofolio yang dibuat menggunakan HTML, CSS, Bootstrap 5, dan Vue JS. Website ini menampilkan informasi pribadi, pengalaman, skill, sertifikat dan media sosial yang ditampilkan secara interaktif dan responsif.
 
 ---
 ## 💻 Tampilan Website
