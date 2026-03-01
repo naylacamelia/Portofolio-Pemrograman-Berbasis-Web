@@ -6,6 +6,8 @@
 
 # Website Portofolio
 
+Project ini merupakan Website portofolio yang dibuat menggunakan HTML, CSS, Bootstrap 5, dan Vue JS. Website ini menampilkan informasi pribadi, pengalaman, skill, sertifikat dan media sosial yang ditampilkan secara interaktif dan responsif.
+
 ---
 ## 💻 Tampilan Website
 
@@ -178,5 +180,5 @@ CSS mengatur ukuran dan warna font, menambah garis tipis diatas footer untuk mem
 | **Bootstrap 5** | Membantu dalam pembuatan layout responsif menggunakan grid system, serta menyediakan komponen siap pakai seperti navbar, card, progress bar, dan utility class untuk spacing dan alignment. |
 | **Bootstrap Icons** | Digunakan untuk menampilkan ikon pada bagian navbar, tools, social media, status pada badge profil yang membuat tampilan lebih menarik. |
 | **Vue JS** | Digunakan untuk menampilkan data secara dinamis seperti nama, deskripsi, daftar skill, sertifikat, dan social media tanpa menulis ulang elemen HTML secara manual. |
-
+|**Google Fonts (Poppins)** | Digunakan sebagai font utama untuk memberikan tampilan bersih dan konsisten di seluruh halaman website. |
 ---
